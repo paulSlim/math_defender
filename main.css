@@ -1,0 +1,78 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#canvas {
+    background-color: aqua;
+}
+
+.start_btn {
+    position: absolute;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20%;
+}
+
+.start_btn_active {
+    display: none;
+}
+
+.inputNr input::-webkit-inner-spin-button,
+.inputNr input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.inputNr {
+    display: none;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+
+    transform: translateX(-50%);
+    width: 30%;
+}
+
+.inputNr input {
+    font-size: 2em;
+    line-height: 2em;
+    text-align: center;
+}
+
+.inputNr_active {
+    display: block;
+}
+
+.stats {
+    display: none;
+    position: absolute;
+    width: fit-content;
+    font-size: 1.5em;
+    bottom: 5%;
+    right: 5%;
+}
+
+.stats_active {
+    display: block;
+}
+
+/* .scene {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.element {
+    position: absolute;
+    top: 0%;
+    width: 80px;
+    height: 80px;
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    transition: 10s ease;
+} */
